@@ -48,6 +48,12 @@
 	brew install --cask todoist		# Todo List
 	```	
 
+	For tunnelblick, to disable auto startup on login - 
+	```
+	defaults  write  net.tunnelblick.tunnelblick  doNotLaunchOnLogin  -bool  yes
+
+	```
+
 5. Change some of the macOS defaults
 
 	Add spaces in dock

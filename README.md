@@ -47,7 +47,7 @@
 	brew install --cask macdown		# Markdown Editor
 	```	
 
-4. Change some of the macOS defaults
+5. Change some of the macOS defaults
 
 	Add spaces in dock
 	```
@@ -89,11 +89,17 @@
 	defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock
 	```
 
-5. Install JDK
+6. Install JDK and Maven
 
 	[Video](https://www.youtube.com/watch?v=s-c4MmEGFjI)
+
 	[Blog](http://programhub.net/install-android-studio-on-apple-silicon-m1-m1-pro-m1-max-macbooks/)
 
-6. Install `oh-my-bash`
+	```bash
+	brew install maven
+	```
+
+7. Install `oh-my-bash`
+
 
 	

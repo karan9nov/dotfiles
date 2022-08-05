@@ -16,17 +16,17 @@
 	```
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	```
-3. Install Python 3 and AWS CLI
+	After this is done, copy
+	```
+	export PATH=/opt/homebrew/bin:$PATH
+	```
+	to your `~/.bashrc` file. If it does not exist create it using `touch ~/.barshrc`.
+
+3. Install basic command line stuff
 	```
 	brew install python3
-	brew install awscli
+	brew install wget
 	```
-	
-	Configure AWS CLI
-	```
-	aws configure
-	```
-	This will ask you for AWS Access Key and Secret Key. You should have them from the very first time when you set up your AWS Account. If you dont have them contact your admin to create a new set of keys for you. 
 	
 4. Install some useful apps (Casks) - 
 	```
@@ -95,11 +95,27 @@
 
 	[Blog](http://programhub.net/install-android-studio-on-apple-silicon-m1-m1-pro-m1-max-macbooks/)
 
-	```bash
+	After JDK is installed, set the `JAVA_HOME` in your `~/.bashrc` file. 
+	```
+	export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+	```
+
+	Also install maven using homebrew.
+	```
 	brew install maven
 	```
 
-7. Install `oh-my-bash`
+7. Install and Configure AWS CLI
 
+	```
+	brew install awscli
+	```
+	```
+	aws configure
+	```
+	This will ask you for AWS Access Key and Secret Key. You should have them from the very first time when you set up your AWS Account. If you dont have them contact your admin to create a new set of keys for you. 
 
-	
+7. Install `oh-my-bash` - Follow the instructions [here](https://github.com/ohmybash/oh-my-bash/blob/master/README.md). My preferred theme to use is `bakke`.
+
+8. 
+

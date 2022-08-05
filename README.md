@@ -117,5 +117,30 @@
 
 7. Install `oh-my-bash` - Follow the instructions [here](https://github.com/ohmybash/oh-my-bash/blob/master/README.md). My preferred theme to use is `bakke`.
 
-8. 
+8. Install `jenv` to manage java environments.
 
+	```
+	brew install jenv
+	```
+
+	Copy this to your `~/.bashrc` file. 
+	```
+	# SETTING UP JENVs
+	export PATH="$HOME/.jenv/bin:$PATH"
+	eval "$(jenv init -)"
+	```
+
+	Then run the following to make sure your `JAVA_HOME` is set. 
+	```
+	jenv enable-plugin export
+	exec $SHELL -l
+	```
+
+	Finally set your `JAVA_HOME`
+	```
+	jenv add "$(/usr/libexec/java_home)"
+	```
+
+	For further read [this](https://github.com/jenv/jenv#readme).
+
+9. 

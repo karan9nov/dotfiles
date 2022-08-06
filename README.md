@@ -45,7 +45,6 @@
 	brew install --cask whatsapp
 	brew install --cask monitorcontrol	# Handy app to change external monitors brightness
 	brew install --cask docker
-	brew install --cask macdown		# Markdown Editor
 	brew install --cask todoist		# Todo List
 	```	
 

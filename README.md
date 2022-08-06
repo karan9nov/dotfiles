@@ -32,6 +32,7 @@
 	```
 	brew install --cask iterm2 		# iTerm 2 - replacement for Mac Terminal
 	brew install --cask sublime-text	# Text editor
+	brew install --cask visual-studio-code
 	brew install --cask google-chrome	# Google Chrome Browser
 	brew install --cask fliqlo		# Fliqlo Screen Saver
 	brew install --cask slack		# Slack

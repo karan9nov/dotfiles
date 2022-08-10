@@ -9,6 +9,8 @@
 	```
 	chsh -s /bin/bash
 	```
+	
+7. Install `oh-my-bash` - Follow the instructions [here](https://github.com/ohmybash/oh-my-bash/blob/master/README.md). My preferred theme to use is `bakke`.
 
 2. Install brew - [Homebrew](https://brew.sh/)
 
@@ -16,11 +18,10 @@
 	```
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	```
-	After this is done, copy
+	After this is done, run this in your terminal. This will add `homebrew` to PATH
 	```
-	export PATH=/opt/homebrew/bin:$PATH
+	echo "export PATH=/opt/homebrew/bin:\$PATH" >> ~/.bashrc
 	```
-	to your `~/.bashrc` file. If it does not exist create it using `touch ~/.barshrc`.
 
 3. Install basic command line stuff
 	```
@@ -122,8 +123,6 @@
 	aws configure
 	```
 	This will ask you for AWS Access Key and Secret Key. You should have them from the very first time when you set up your AWS Account. If you dont have them contact your admin to create a new set of keys for you. 
-
-7. Install `oh-my-bash` - Follow the instructions [here](https://github.com/ohmybash/oh-my-bash/blob/master/README.md). My preferred theme to use is `bakke`.
 
 8. Install `jenv` to manage java environments.
 

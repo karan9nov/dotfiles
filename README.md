@@ -48,6 +48,7 @@
 	brew install --cask docker
 	brew install --cask todoist		# Todo List
 	brew install --cask hiddenbar
+	brew install --cask zoom
 	```	
 
 	For tunnelblick, to disable auto startup on login - 

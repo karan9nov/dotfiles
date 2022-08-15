@@ -31,23 +31,25 @@
 	
 4. Install some useful apps (Casks) - 
 	```
-	brew install --cask iterm2 		# iTerm 2 - replacement for Mac Terminal
-	brew install --cask sublime-text	# Text editor
-	brew install --cask visual-studio-code
-	brew install --cask google-chrome	# Google Chrome Browser
-	brew install --cask fliqlo		# Fliqlo Screen Saver
-	brew install --cask slack		# Slack
-	brew install --cask intellij-idea	# IntelliJ IDEA
-	brew install --cask datagrip		# DataGrip
-	brew install --cask google-drive	# Google Drive Mac Client
-	brew install --cask itsycal		# Itsycal
-	brew install --cask tunnelblick		# VPN Client
-	brew install --cask postman
-	brew install --cask whatsapp
-	brew install --cask monitorcontrol	# Handy app to change external monitors brightness
+	brew install --cask datagrip
 	brew install --cask docker
-	brew install --cask todoist		# Todo List
+	brew install --cask fliqlo
+	brew install --cask google-chrome
+	brew install --cask google-drive
 	brew install --cask hiddenbar
+	brew install --cask intellij-idea
+	brew install --cask iterm2 
+	brew install --cask itsycal
+	brew install --cask microsoft-office
+	brew install --cask microsoft-teams
+	brew install --cask monitorcontrol
+	brew install --cask postman
+	brew install --cask slack
+	brew install --cask sublime-text
+	brew install --cask todoist
+	brew install --cask tunnelblick
+	brew install --cask visual-studio-code
+	brew install --cask whatsapp
 	brew install --cask zoom
 	```	
 

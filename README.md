@@ -31,6 +31,7 @@
 	
 4. Install some useful apps (Casks) - 
 	```
+	brew install --cask amazon-chime
 	brew install --cask datagrip
 	brew install --cask docker
 	brew install --cask fliqlo

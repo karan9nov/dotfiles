@@ -25,6 +25,7 @@
 
 3. Install basic command line stuff
 	```
+	brew install mysql
 	brew install python3
 	brew install wget
 	```
@@ -38,13 +39,16 @@
 	brew install --cask google-chrome
 	brew install --cask google-drive
 	brew install --cask hiddenbar
+	brew install --cask imageoptim
 	brew install --cask intellij-idea
 	brew install --cask iterm2 
 	brew install --cask itsycal
+	brew install --cask microsoft-edge
 	brew install --cask microsoft-office
 	brew install --cask microsoft-teams
 	brew install --cask monitorcontrol
 	brew install --cask postman
+	brew install --cask shottr
 	brew install --cask slack
 	brew install --cask sublime-text
 	brew install --cask todoist

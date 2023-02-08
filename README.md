@@ -1,3 +1,7 @@
+# Helpful Blog
+
+https://www.idownloadblog.com/2021/12/22/things-to-do-after-setting-up-mac/?fbclid=IwAR2Vcdpgf0BGPuECmWmdc8C7mxai1ONfNyJQ-wImXG9h-y63yFdF259_m8Q
+
 # Setting up mac for the first time
 
 1. Default shell is `zsh`, but I like `bash` just because I have been using it for a long time and I am comfortable with it. 

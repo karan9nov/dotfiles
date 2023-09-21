@@ -162,4 +162,11 @@ https://www.idownloadblog.com/2021/12/22/things-to-do-after-setting-up-mac/?fbcl
 
 	For further read [this](https://github.com/jenv/jenv#readme).
 
-9. 
+9. Some more useful apps -
+   a. CopyClip
+   b. Fluor
+   c. Logi Options+
+   d. Logitech G Hub
+   e. PdfGear
+   f. Adobe Acrobat Reader
+

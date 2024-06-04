@@ -88,6 +88,11 @@ https://www.idownloadblog.com/2021/12/22/things-to-do-after-setting-up-mac/?fbcl
 	```
 	defaults write com.apple.dock "autohide-delay" -float "0" && killall Dock
 	```
+ 
+	Move dock to right
+	```
+	defaults write com.apple.dock orientation right && killall Dock
+	```
 
 	Change the default location of screenshots
 	```

@@ -36,10 +36,12 @@ https://www.idownloadblog.com/2021/12/22/things-to-do-after-setting-up-mac/?fbcl
 	
 4. Install some useful apps (Casks) - 
 	```
+ 	brew install --cask alfred
 	brew install --cask amazon-chime
 	brew install --cask datagrip
 	brew install --cask docker
 	brew install --cask fliqlo
+ 	brew install --cask fluor
 	brew install --cask google-chrome
 	brew install --cask google-drive
 	brew install --cask hiddenbar
@@ -47,6 +49,8 @@ https://www.idownloadblog.com/2021/12/22/things-to-do-after-setting-up-mac/?fbcl
 	brew install --cask intellij-idea
 	brew install --cask iterm2 
 	brew install --cask itsycal
+ 	brew install --cask keyboardcleantool
+ 	brew install --cask maccy
 	brew install --cask microsoft-edge
 	brew install --cask microsoft-office
 	brew install --cask microsoft-teams
